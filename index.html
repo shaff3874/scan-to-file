@@ -101,9 +101,6 @@ function drawBackground(count) {
   cx.fillStyle = WHITE; cx.font = '700 38px ' + MONO; cx.textAlign = 'center'; cx.textBaseline = 'middle'; cx.fillText('SF', 90, 97);
   cx.textAlign = 'left'; cx.font = '700 42px ' + MONO; cx.fillText('SCAN TO FILE', 165, 80);
   cx.fillStyle = DIM; cx.font = '28px ' + MONO; cx.fillText('411 members', 165, 128);
-  cx.fillStyle = WHITE; cx.font = '700 54px ' + MONO; cx.fillText('23:58', 40, 257);
-  rr(cx, W - 500, 210, 470, 94, 22); cx.fillStyle = 'rgba(4,10,26,.85)'; cx.fill(); cx.strokeStyle = WHITE; cx.lineWidth = 3; cx.stroke();
-  cx.fillStyle = WHITE; cx.font = '700 40px ' + MONO; cx.textAlign = 'center'; cx.fillText('SUBMITTED ' + count + '/47', W - 265, 258);
 }
 
 function drawBox(mouth, t) {
