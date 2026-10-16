@@ -182,7 +182,7 @@ function frame(s, ph, count) {
       });
       var pct = Math.floor(100 * clamp((s - t1) / ph[1]));
       cx.fillStyle = GREEN; cx.font = '700 32px ' + MONO; cx.textAlign = 'center';
-      cx.fillText(pct < 100 ? 'SCANNING SUBMISSION ... ' + pct + '%' : 'CONVERTING TO EVIDENCE', X, Math.min(y1 + 44, 1440));
+      cx.fillText(pct < 100 ? 'DIGITIZING YOUR MASTERPIECE ... ' + pct + '%' : 'FEEDING THE FILE MONSTER', X, Math.min(y1 + 44, 1440));
     }
   } else if (s < t4) {
     var q = ss((s - t3) / ph[3]);
