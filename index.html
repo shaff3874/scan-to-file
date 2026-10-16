@@ -29,7 +29,7 @@ p { margin:0; max-width:420px; font-size:12px; line-height:1.6; color:var(--mute
 </head>
 <body>
 <main>
-  <div class="label">UMS Gemini Pro · scan-to-file effect</div>
+  <div class="label">Scan to File · scan-to-file effect</div>
   <p id="status" style="color:#3ccd78;min-height:1.6em"></p>
   <canvas id="c" width="1080" height="1920"></canvas>
   <div class="row">
@@ -98,8 +98,8 @@ function drawBackground(count) {
   cx.fillStyle = '#0f1e40'; cx.fillRect(0, 0, W, 190);
   cx.strokeStyle = 'rgba(37,190,110,.6)'; cx.lineWidth = 3; cx.beginPath(); cx.moveTo(0, 190); cx.lineTo(W, 190); cx.stroke();
   cx.fillStyle = '#25a064'; cx.beginPath(); cx.arc(90, 95, 48, 0, 7); cx.fill();
-  cx.fillStyle = WHITE; cx.font = '700 38px ' + MONO; cx.textAlign = 'center'; cx.textBaseline = 'middle'; cx.fillText('GP', 90, 97);
-  cx.textAlign = 'left'; cx.font = '700 42px ' + MONO; cx.fillText('UMS GEMINI PRO', 165, 80);
+  cx.fillStyle = WHITE; cx.font = '700 38px ' + MONO; cx.textAlign = 'center'; cx.textBaseline = 'middle'; cx.fillText('SF', 90, 97);
+  cx.textAlign = 'left'; cx.font = '700 42px ' + MONO; cx.fillText('SCAN TO FILE', 165, 80);
   cx.fillStyle = DIM; cx.font = '28px ' + MONO; cx.fillText('411 members', 165, 128);
   cx.fillStyle = WHITE; cx.font = '700 54px ' + MONO; cx.fillText('23:58', 40, 257);
   rr(cx, W - 500, 210, 470, 94, 22); cx.fillStyle = 'rgba(4,10,26,.85)'; cx.fill(); cx.strokeStyle = WHITE; cx.lineWidth = 3; cx.stroke();
